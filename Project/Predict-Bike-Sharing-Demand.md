@@ -47,4 +47,6 @@ TODO: Replace the image below with your own.
 ![model_test_score.png](model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+I conducted three experiments using AutoGluon: the first with default parameters achieved a score of 1.84007; the second added new features from the datetime data, improving the score to 0.44957; and the third involved hyperparameter tuning, which slightly lowered the performance to 0.53849 but still outperformed the initial run. These results highlight the importance of feature engineering and parameter tuning in improving model accuracy.
+
+
