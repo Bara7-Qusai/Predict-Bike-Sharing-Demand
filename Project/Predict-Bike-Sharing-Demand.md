@@ -3,10 +3,13 @@
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+
+While submitting the predictions, I faced challenges such as linking my Kaggle account and working within the SageMaker environment, in addition to initially poor results. It required adjusting the predictions to eliminate negative values and improving the model through feature engineering and hyperparameter tuning. This helped enhance accuracy and deepen my understanding of the process
+
+
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
+
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
