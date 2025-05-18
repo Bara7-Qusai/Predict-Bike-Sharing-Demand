@@ -30,9 +30,10 @@ If I had more time, I would try running AutoGluon for longer periods with high-q
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+|initial|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|1.84007|
+|add_features|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|0.44957|
+|hpo|"{'num_boost_round': 100, 'num_leaves': 36, 'extra_trees': True, 'ag_args': {'name_suffix': 'XT'}}" (for the GBM hyperparameters)|"{'num_epochs': 5, 'learning_rate': 0.0005, 'activation': 'relu', 'dropout_prob': 0.1}" (for the NN_TORCH hyperparameters)|"presets: 'optimize_for_deployment"|0.53849|
+
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
