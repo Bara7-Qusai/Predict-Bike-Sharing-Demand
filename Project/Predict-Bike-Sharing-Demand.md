@@ -10,6 +10,8 @@ While submitting the predictions, I faced challenges such as linking my Kaggle a
 
 ### What was the top ranked model that performed?
 
+The best-performing model was WeightedEnsemble_L3, with a Kaggle score of 0.44957. It was built using data exploration and feature engineering without hyperparameter tuning
+
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
